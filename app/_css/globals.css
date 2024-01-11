@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+main {
+  @apply h-screen p-4 flex flex-col;
+}
+
+nav {
+  @apply flex p-4 gap-4 justify-center;
+}
+
+nav > a {
+  @apply text-xl hover:font-bold transition-all;
+}
